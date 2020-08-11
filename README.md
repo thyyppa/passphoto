@@ -190,7 +190,7 @@ By default information about the detected images and resulting crop will be outp
 
 `cropped_file[n]`: path of cropped file where `n` is the index of the face being cropped. (useful when [outputting multiple faces](#detecting-and-cropping-multiple-faces-in-single-image))
 
-`debug_file`: **(optional)** path to [debug file](#output-debug-file)
+`debug_file`: _(optional)_ path to [debug file](#output-debug-file)
 
 `face_bounds[n]_x`: x position of detected face boundary at index `n` in px
 
