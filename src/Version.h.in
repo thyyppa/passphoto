@@ -1,0 +1,8 @@
+#ifndef Version_h
+#define Version_h
+
+#define VERSION_MAJOR "@passphoto_VERSION_MAJOR@"
+#define VERSION_MINOR "@passphoto_VERSION_MINOR@"
+#define VERSION_PATCH "@passphoto_VERSION_PATCH@"
+
+#endif //Version_h
