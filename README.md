@@ -79,6 +79,8 @@ If you want to simply ensure that an image contains a valid face that meets your
 
 Passphoto will return an exit code of `0` if it detects at least one valid face, and an exit code of `1` if no faces are found.
 
+This can also be used in conjunction with [JSON output](#terminal-output-as-json), which is useful, for example, when using Passphoto with a web frontend.
+
 ```bash
 $ passphoto -k ./examples/photo.jpg
 --> returns exit code 0 - at least one face was found
@@ -277,7 +279,7 @@ CROP_ERROR: Face not within crop bounds
 
 ### Terminal output as JSON
 
-Output information can also be returned in JSON format using `-j` or `--json`. JSON output also works with `-k` for [pre-validating](#quickly-check-if-an-image-contains-a-valid-face) an image. This is useful, for example, when using Passphoto with a web frontend.
+Output information can be returned in JSON format using `-j` or `--json`.
 
 The JSON format mirrors the [Terminal output format](#terminal-output-format) but uses JSON objects in place of the pseudo-arrays.
 
